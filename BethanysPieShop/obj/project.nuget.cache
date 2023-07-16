@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gpEc5A+v+Uvqh2a+fVSo0t540AC7bWFs048Hz9WxvrRylPH0a2e68ER6aB2wq9ayEJv7mxu48n2nWsLK1RwfLQ==",
+  "dgSpecHash": "lsvK5LB1PQErzY0cd5to/ytiBr96QIa+W+ZGuCZ3qyh39YtEGRT0nFaTecjj1jQmrMJ25SaM6YWkwniZ38F7ow==",
   "success": true,
-  "projectFilePath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop.csproj",
+  "projectFilePath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdullah.ahmed\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\abdullah.ahmed\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

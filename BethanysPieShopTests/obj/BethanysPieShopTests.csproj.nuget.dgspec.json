@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShopTests\\BethanysPieShopTests.csproj": {}
+    "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShopTests\\BethanysPieShopTests.csproj": {}
   },
   "projects": {
-    "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShopTests\\BethanysPieShopTests.csproj": {
+    "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShopTests\\BethanysPieShopTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShopTests\\BethanysPieShopTests.csproj",
+        "projectUniqueName": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShopTests\\BethanysPieShopTests.csproj",
         "projectName": "BethanysPieShopTests",
-        "projectPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShopTests\\BethanysPieShopTests.csproj",
+        "projectPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShopTests\\BethanysPieShopTests.csproj",
         "packagesPath": "C:\\Users\\abdullah.ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShopTests\\obj\\",
+        "outputPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShopTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop.csproj": {
-                "projectPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop.csproj"
+              "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj": {
+                "projectPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop.csproj": {
+    "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop.csproj",
+        "projectUniqueName": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
         "projectName": "BethanysPieShop",
-        "projectPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop.csproj",
+        "projectPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
         "packagesPath": "C:\\Users\\abdullah.ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\obj\\",
+        "outputPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
