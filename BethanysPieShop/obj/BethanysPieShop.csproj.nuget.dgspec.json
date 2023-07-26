@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj": {}
+    "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\Pushed to githup\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj": {}
   },
   "projects": {
-    "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj": {
+    "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\Pushed to githup\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
+        "projectUniqueName": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\Pushed to githup\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
         "projectName": "BethanysPieShop",
-        "projectPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
+        "projectPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\Pushed to githup\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
         "packagesPath": "C:\\Users\\abdullah.ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\New folder\\BethanysPieShop\\BethanysPieShop\\obj\\",
+        "outputPath": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\Pushed to githup\\BethanysPieShop\\BethanysPieShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,18 +42,30 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.8, )"
             }
           },
           "imports": [
