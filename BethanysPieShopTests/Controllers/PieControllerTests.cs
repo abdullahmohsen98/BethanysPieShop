@@ -7,28 +7,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace BethanysPieShopTests.Controllers
 {
     public class PieControllerTests
     {
         [Fact]
-        public void List_EmptyCategory_ReturnAllPies()
+        public void List_EmptyCategory_ReturnsAllPies()
         {
-            //Arrange
-            var mockPieRepository = RepositoryMocks.GetPieRepository();
+            //arrange
             var mockCategoryRepository = RepositoryMocks.GetCategoryRepository();
+            var mockPieRepository = RepositoryMocks.GetPieRepository();
 
             var pieController = new PieController(mockPieRepository.Object, mockCategoryRepository.Object);
 
-            //Act
+            //act
             var result = pieController.List("");
 
-            //Assert
+            //assert
             var viewResult = Assert.IsType<ViewResult>(result);
             var pieListViewModel = Assert.IsAssignableFrom<PieListViewModel>(viewResult.ViewData.Model);
-            Assert.Equal(10,pieListViewModel.Pies.Count());
-
+            Assert.Equal(10, pieListViewModel.Pies.Count());
         }
     }
 }

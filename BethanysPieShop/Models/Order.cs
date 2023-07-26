@@ -23,10 +23,10 @@ namespace BethanysPieShop.Models
         [Required(ErrorMessage = "Please enter your address")]
         [StringLength(100)]
         [Display(Name = "Address Line 1")]
-        public string AdressLine1 { get; set; } = string.Empty;
+        public string AddressLine1 { get; set; } = string.Empty;
 
         [Display(Name = "Address Line 2")]
-        public string? AdressLine2 { get; set; }
+        public string? AddressLine2 { get; set; }
 
         [Required(ErrorMessage = "Please enter your zip code")]
         [Display(Name = "Zip code")]

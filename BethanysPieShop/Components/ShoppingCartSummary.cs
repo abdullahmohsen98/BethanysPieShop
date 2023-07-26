@@ -15,9 +15,9 @@ namespace BethanysPieShop.Components
 
         public IViewComponentResult Invoke()
         {
-            var items = new List<ShoppingCartItem>() { new ShoppingCartItem(), new ShoppingCartItem() };
+            //var items = new List<ShoppingCartItem>() { new ShoppingCartItem(), new ShoppingCartItem() };
 
-            //var items = _shoppingCart.GetShoppingCartItems();
+            var items = _shoppingCart.GetShoppingCartItems();
             _shoppingCart.ShoppingCartItems = items;
 
             var shoppingCartViewModel = new ShoppingCartViewModel(_shoppingCart, _shoppingCart.GetShoppingCartTotal());

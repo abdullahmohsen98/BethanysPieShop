@@ -25,7 +25,6 @@ namespace BethanysPieShop.Controllers
         //    return View(piesListViewModel);
         //}
 
-        //the above action can be replaced with:
         public ViewResult List(string category)
         {
             IEnumerable<Pie> pies;

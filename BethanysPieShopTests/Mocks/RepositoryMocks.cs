@@ -12,7 +12,7 @@ namespace BethanysPieShopTests.Mocks
     {
         public static Mock<IPieRepository> GetPieRepository()
         {
-            var pies = new List<Pie> 
+            var pies = new List<Pie>
             {
                 new Pie
                 {
@@ -162,14 +162,14 @@ namespace BethanysPieShopTests.Mocks
 
             var mockPieRepository = new Mock<IPieRepository>();
             mockPieRepository.Setup(repo => repo.AllPies).Returns(pies);
-            mockPieRepository.Setup(repo => repo.PiesOfTheWeek).Returns(pies.Where(p=>p.IsPieOfTheWeek));
+            mockPieRepository.Setup(repo => repo.PiesOfTheWeek).Returns(pies.Where(p => p.IsPieOfTheWeek));
             mockPieRepository.Setup(repo => repo.GetPieById(It.IsAny<int>())).Returns(pies[0]);
             return mockPieRepository;
-
         }
+
         public static Mock<ICategoryRepository> GetCategoryRepository()
         {
-            var categories = new List<Category> 
+            var categories = new List<Category>
             {
                 new Category()
                 {
@@ -190,10 +190,13 @@ namespace BethanysPieShopTests.Mocks
                     Description = "Seasonal pies"
                 }
             };
+
             var mockCategoryRepository = new Mock<ICategoryRepository>();
             mockCategoryRepository.Setup(repo => repo.AllCategories).Returns(categories);
+
             return mockCategoryRepository;
         }
+
         private static Dictionary<string, Category>? _categories;
         public static Dictionary<string, Category> Categories
         {
@@ -209,11 +212,13 @@ namespace BethanysPieShopTests.Mocks
                     };
 
                     _categories = new Dictionary<string, Category>();
+
                     foreach (var genre in genresList)
                     {
                         _categories.Add(genre.CategoryName, genre);
                     }
                 }
+
                 return _categories;
             }
         }
