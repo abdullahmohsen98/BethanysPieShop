@@ -83,7 +83,7 @@ namespace BethanysPieShop.Migrations
                 oldType: "nvarchar(max)");
 
             migrationBuilder.AlterColumn<string>(
-                name: "AddressLine1",
+                name: "AdressLine1",
                 table: "Orders",
                 type: "nvarchar(100)",
                 maxLength: 100,
@@ -373,7 +373,7 @@ namespace BethanysPieShop.Migrations
                 oldMaxLength: 50);
 
             migrationBuilder.AlterColumn<string>(
-                name: "AddressLine1",
+                name: "AdressLine1",
                 table: "Orders",
                 type: "nvarchar(max)",
                 nullable: false,

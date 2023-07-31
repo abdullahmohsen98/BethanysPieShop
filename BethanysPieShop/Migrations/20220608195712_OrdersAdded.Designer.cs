@@ -52,11 +52,11 @@ namespace BethanysPieShop.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"), 1L, 1);
 
-                    b.Property<string>("AddressLine1")
+                    b.Property<string>("AdressLine1")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("AddressLine2")
+                    b.Property<string>("AdressLine2")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("City")

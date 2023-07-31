@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\Pushed to githup\\BethanysPieShop\\BethanysPieShop\\wwwroot\\Images\\App.png",
+      "PackagePath": "staticwebassets\\Images\\App.png"
+    },
+    {
       "Id": "D:\\Study\\Important Study\\ASP.Net Core 6-Course\\Asp.NetCore6_EmptyWebApp\\Pushed to githup\\BethanysPieShop\\BethanysPieShop\\wwwroot\\Images\\bethanys-pie-shop-logo_horiz-white.png",
       "PackagePath": "staticwebassets\\Images\\bethanys-pie-shop-logo_horiz-white.png"
     },
